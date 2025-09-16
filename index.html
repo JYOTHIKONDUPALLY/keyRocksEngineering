@@ -461,21 +461,21 @@
         });
 
         // Parallax effect
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const parallaxElements = document.querySelectorAll('.parallax-element');
+        // window.addEventListener('scroll', () => {
+        //     const scrolled = window.pageYOffset;
+        //     const parallaxElements = document.querySelectorAll('.parallax-element');
             
-            parallaxElements.forEach((element, index) => {
-                const speed = (index + 1) * 0.1;
-                element.style.transform = `translateY(${scrolled * speed}px)`;
-            });
-        });
+        //     parallaxElements.forEach((element, index) => {
+        //         const speed = (index + 1) * 0.1;
+        //         element.style.transform = `translateY(${scrolled * speed}px)`;
+        //     });
+        // });
 
         // Add staggered animation delay to feature cards
-        const featureCards = document.querySelectorAll('.feature-card');
-        featureCards.forEach((card, index) => {
-            card.style.transitionDelay = `${index * 0.1}s`;
-        });
+        // const featureCards = document.querySelectorAll('.feature-card');
+        // featureCards.forEach((card, index) => {
+        //     card.style.transitionDelay = `${index * 0.1}s`;
+        // });
          // Contact form functionality
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
