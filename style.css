@@ -314,6 +314,17 @@
             opacity: 1;
             transform: translateY(0);
         }
+        .feature-icons{
+              width: 80px;
+            height: 80px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
 
         .feature-icon {
          width: 100%;
